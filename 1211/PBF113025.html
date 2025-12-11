@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PBF113025 周振宇</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        width: 400px;
+        margin: auto;
+      }
+      h2 {
+        background-color: rgb(214, 163, 101);
+        padding: 10px;
+        border-bottom: 1px solid rgb(157, 157, 224);
+      }
+      p {
+        background-color: rgb(208, 236, 179);
+        padding: 10px;
+        display: none; 
+      }
+    </style>
+  </head>
+
+  <body style="background-color: beige;">
+    <div class="container">
+      <h2>台北特色</h2>
+      <p>
+        台北的特色是現代與傳統的融合，結合了繁華的都會景觀和豐富的自然景觀。
+        這裡有台北101、中正紀念堂等現代地標，也有龍山寺、故宮博物院等文化古蹟。
+        此外，台北還有多元的美食文化（如夜市小吃、各式餐廳），並擁有完善的交通和便利的生活機能。
+      </p>
+
+      <h2>台中特色</h2>
+      <p>
+        台中特色包含宜人的氣候、交通樞紐的地理位置，以及結合歷史文化與現代創新的城市風貌。此外，台中也以其多樣的美食與景點吸引許多遊客。
+      </p>
+
+      <h2>高雄特色</h2>
+      <p>
+        高雄的特色為「山、海、河港、人文、古蹟」的結合，擁有獨特的海洋首都氣候、豐富的自然景觀（如壽山、西子灣等），以及高雄港的海港城市風貌。
+        此外，高雄也以其自行車友善城市聞名，並擁有熱鬧的夜市和購物中心。
+      </p>
+
+      <h2>花東特色</h2>
+      <p>
+        花東的特色是壯闊的自然景觀（山脈、縱谷、海岸）與豐富的多元文化（原住民、閩南、客家）融合，
+        形成獨特且悠閒的生活步調與旅遊魅力。
+      </p>
+    </div>
+
+  
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    
+    <script>
+      $("h2").click(function () {
+        $(this).next().slideToggle(600);
+      });
+    </script>
+  </body>
+</html>
+
